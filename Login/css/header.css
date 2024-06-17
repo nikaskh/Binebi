@@ -1,0 +1,45 @@
+.header-main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.nav-ul{
+    display: flex;
+    margin-left: 100px;
+}
+.nav-ul li a{
+    margin-right: 48px;
+    font-family: poppins-regular;
+    color: black;
+}
+.sell-something-button{
+    background-color: #29B24E;
+    border: none;
+    color: white;
+    border-radius: 12px;
+    padding: 13px 26px 13px 26px;
+}
+.logo{
+    max-width: 48px;
+    width: 100%;
+}
+.nav-ul li a:hover{
+    border-bottom:2px solid #29B24E;
+}
+.header-search{
+    padding: 13px;
+    border-radius: 24px;
+    background-color: #C2C2C24F;
+    opacity: 0;
+}
+@media (max-width:768px) {
+    .nav-ul,
+    .header-main-div button{
+        display: none;
+    }
+    .header-search{
+        opacity: 1;
+    }
+}

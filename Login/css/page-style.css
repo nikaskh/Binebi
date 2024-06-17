@@ -1,0 +1,218 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+.header-main-div-page{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+    margin-right: 140px;
+    align-items: center;
+}
+section{
+    margin-top: 58px;
+}
+.section-photo{
+    max-width: 810px;
+    width: 65%;
+}
+.first-page-conteiner{
+    display: flex;
+    justify-content: center;
+    font-family: poppins-regular;
+}
+.data-div{
+    width: 43%;
+    background-color: #F8F8F8;
+    border-radius: 24px;
+}
+.first-ul{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 27px;
+    padding-top: 32px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.page-photo{
+    max-width: 810px;
+    width: 100%;
+}
+.second-ul{
+    display: flex;
+    margin-top: 40px;
+    border-top: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
+}
+.second-ul li{
+    padding-right: 24px;
+    padding-left: 40px;
+}
+.data-div h1{
+    padding-left: 40px;
+}
+.data-div-first-p{
+    margin-top: 12px;
+    color: grey;
+    padding-left: 40px;
+}
+.data-div-second-p{
+    margin-top: 32px;
+    width: 60%;
+    padding-left: 40px;
+}
+.last-three-ul-div{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ECECEC;
+    padding-bottom: 24px;
+}
+.last-first-ul{
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+}
+.last-first-ul li{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+}
+.last-first-ul li h5{
+    color: grey;
+    padding-bottom: 4px;
+}
+.last-second-ul{
+    padding-top: 24px;
+}
+.last-second-ul li h5{
+    color: grey;
+}
+.price-p{
+    padding-left: 94px;
+}
+.price-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+}
+.price-p span{
+    color: #29B24E;
+    font-size: 36px;
+    font-family: poppins-bold;
+}
+.sent-message{
+    border: 1px solid #29B24E;
+    padding: 13px 26px 13px 26px;
+    border-radius: 12px;
+    margin-right: 16px;
+    color: #29B24E;
+}
+.call{
+    border: 1px solid #29B24E;
+    padding: 13px 26px 13px 26px;
+    border-radius: 12px;
+    margin-right: 40px;
+    background-color: #29B24E;
+    color: white;
+}
+.button-div{
+    padding-right: 40px;
+    text-align: right;
+}
+.second-section-article{
+    display: none;
+}
+@media (max-width:768px) {
+    body{
+        width: 100%;
+    }
+    .header-main-div-page{
+       margin: 0;
+    }
+    .logout{
+        display: none;
+    }
+    .first-page-conteiner,
+    .price-div,
+    .button-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .first-photo{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 42px;
+    }
+    .section-photo{
+        max-width: 335px;
+        width: 100%;
+    }
+    .first-ul li{
+        margin-right: 38px;
+    }
+    .data-div{
+        width: 100%;
+    }
+    .data-div h1,
+    .data-div-first-p,
+    .data-div-second-p{
+        padding-left: 20px;
+    }
+    .data-div-second-p{
+        width: 100%;
+    }
+    .first-ul li:nth-child(1){
+        background-color: #29B24E;
+        padding: 10px;
+        border-radius: 24px;
+        color: white;
+    }
+    .second-ul li{
+        padding-right: 0;
+        padding-left: 8px;
+    }
+    .last-three-ul-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .last-first-ul li{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .last-second-ul li{
+        text-align: right;
+    }
+    .last-second-ul h5{
+        color: grey;
+    }
+    .button-div{
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 0;
+    }
+    .button-div a{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .second-section-article{
+        display: block;
+        margin-left: 20px;
+    }
+    .second-section-img{
+        width: 100%;
+    }
+    .footer-nav ul li{
+        padding-right: 0;
+    }
+}
